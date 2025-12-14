@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lombet Tim – Portfolio</title>
+  
+  <link rel="icon" type="image/png" href="image/monogramme_bleu_mode-clair.png" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#apropos" class="logo-area">
+        <img src="image/monogramme_bleu_mode-clair.png" alt="Logo Lombet Tim" class="logo-img logo-light" />
+        <img src="image/monogramme_jaune_mode-sombre.png" alt="Logo Lombet Tim Dark" class="logo-img logo-dark" />
+      </a>
+  
+      <button class="burger-btn" aria-label="Ouvrir le menu" aria-controls="site-nav" aria-expanded="false">
+
+  
+        <span class="burger-bar"></span>
+
+  
+        <span class="burger-bar"></span>
+
+  
+        <span class="burger-bar"></span>
+
+  
+      </button>
+
+  
+      <div class="nav-wrapper">
+        <nav id="site-nav" class="main-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="#apropos" class="nav-link">À propos</a></li>
+            <li><a href="#competences" class="nav-link">Compétences</a></li>
+            <li><a href="#projet" class="nav-link">Projet</a></li>
+            <li><a href="#contact" class="nav-btn">Me contacter</a></li>
+            
+            <li class="theme-li">
+              <button id="theme-toggle" class="theme-btn" aria-label="Changer le thème">🌓</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section id="apropos" class="section hero">
+      <div class="hero-inner">
+        <div class="hero-text fade-in-left">
+          <h1>Lombet Tim</h1>
+          <p class="hero-intro">
+            Étudiant en <strong>arts appliqués</strong>, je conçois des
+            <strong>identités visuelles</strong> et supports de communication adaptés
+            aux besoins des professionnels.
+          </p>
+          <p class="hero-intro">
+            Mon objectif : créer des visuels cohérents, esthétiques et efficaces pour
+            valoriser chaque projet.
+          </p>
+        </div>
+
+        <div class="hero-illustration fade-in-right">
+          <div class="blob-bg"></div>
+          <img src="image/pp-visage.png" alt="Portrait Lombet Tim" class="float-img" />
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section skills-banner">
+      <div class="skills-container">
+        <video class="skills-video" autoplay muted loop playsinline>
+          <source src="image/banner_site_1200px.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+      </div>
+    </section>
+
+    <section id="projet" class="section project-highlight">
+      <div class="project-inner">
+        <div class="project-logo fade-in-left">
+          <div class="img-hover-zoom">
+             <img src="image/wonderbox_couleurs_mode-clair.png" alt="Projet Wonderbox" class="wb-light" />
+             <img src="image/wonderbox_blanc_mode-sombre.png" alt="Projet Wonderbox Dark" class="wb-dark" />
+          </div>
+        </div>
+
+        <div class="project-text fade-in-right">
+          <span class="tag">Branding & Packaging</span>
+          <h2>Projet à la une</h2>
+          <p>
+            Ce projet visait à rafraîchir l’identité visuelle des cartes cadeaux
+            Wonderbox, en repensant l’ensemble du concept graphique — du logo
+            jusqu’à la conception de la carte.
+          </p>
+          <p>
+            L’objectif était de proposer une image plus cohérente, attrayante et
+            en phase avec l’univers d’émotions et de découvertes propre à la marque.
+          </p>
+          <a href="#contact" class="btn-primary">En savoir plus</a>
+        </div>
+      </div>
+    </section>
+  
+    <section id="galerie" class="section gallery-strip">
+      <div class="gallery-left">
+        <a href="#g1" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_8515-small.jpg" alt="Photo 1" loading="lazy" /></a>
+        <a href="#g2" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_9274-small.jpg" alt="Photo 2" loading="lazy" /></a>
+        <a href="#g3" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_9054-small.jpg" alt="Photo 3" loading="lazy" /></a>
+        <a href="#g4" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_9272-small.jpg" alt="Photo 4" loading="lazy" /></a>
+        <a href="#g5" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_8779-small.jpg" alt="Photo 5" loading="lazy" /></a>
+        <a href="#g6" class="gallery-col" tabindex="0"><img src="image/galerie/mini/IMG_8891-small.jpg" alt="Photo 6" loading="lazy" /></a>
+      </div>
+
+      <div class="insta-right">
+        <a href="https://www.instagram.com/tim.lombet.photographie?igsh=MTRlaGVjcWlnejZvaQ==" target="_blank" class="insta-link">
+          <img src="image/instagram.png" alt="Instagram" />
+          <span class="insta-label">Rejoins-moi sur Insta</span>
+        </a>
+      </div>
+    </section>
+
+    <div id="g1" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_8515.jpg" class="lightbox-content" loading="lazy"/>
+    </div>
+    <div id="g2" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_9274.jpg" class="lightbox-content" loading="lazy"/>
+    </div>
+    <div id="g3" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_9054.jpeg" class="lightbox-content" loading="lazy"/>
+    </div>
+    <div id="g4" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_9272.jpg" class="lightbox-content" loading="lazy"/>
+    </div>
+    <div id="g5" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_8779.jpg" class="lightbox-content" loading="lazy"/>
+    </div>
+    <div id="g6" class="lightbox">
+      <a href="#galerie" class="lightbox-close">&times;</a>
+      <img src="image/galerie/IMG_8891.jpg" class="lightbox-content" loading="lazy"/>
+    </div>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <h2>Parlons de votre projet</h2> 
+          <p>
+            Une idée de projet, une collaboration ou une simple question&nbsp;?
+            Remplissez ce formulaire, je réponds généralement sous 24h.
+          </p>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/xwpgzrda" method="POST">
+          <div class="form-group">
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="Nom" required placeholder="Ex: Jean Dupont" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required placeholder="exemple@mail.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="5" required placeholder="Dites-m'en plus..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Envoyer le message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#" class="footer-logo"><img src="image/monogramme_blanc_footer.png" alt="Accueil" /></a>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/share/1AVp9whnin/"><img src="image/facebook.png" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/tim.lombet.photographie?igsh=MTRlaGVjcWlnejZvaQ=="><img src="image/instagram.png" alt="Instagram" /></a>
+      </div>
+    </div>
+    <p class="copyright">© 2024 Lombet Tim. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // --- Theme toggle ---
+    const toggleBtn = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+
+    // --- Burger menu (mobile/tablette) ---
+    const burgerBtn = document.querySelector('.burger-btn');
+    const header = document.querySelector('.site-header');
+    const nav = document.getElementById('site-nav');
+
+    if (burgerBtn && header && nav) {
+      const closeMenu = () => {
+        header.classList.remove('nav-open');
+        burgerBtn.setAttribute('aria-expanded', 'false');
+        burgerBtn.setAttribute('aria-label', 'Ouvrir le menu');
+      };
+
+      burgerBtn.addEventListener('click', () => {
+        const isOpen = header.classList.toggle('nav-open');
+        burgerBtn.setAttribute('aria-expanded', String(isOpen));
+        burgerBtn.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+      });
+
+      // Ferme le menu quand on clique sur un lien
+      nav.querySelectorAll('a').forEach((a) => {
+        a.addEventListener('click', closeMenu);
+      });
+
+      // Ferme le menu si on repasse en desktop
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 1024) closeMenu();
+      });
+    }
+  </script>
+</body>
+</html>
